@@ -1,0 +1,27 @@
+body {
+    background-color: #f3f3f3;
+    margin: 0;
+}
+
+header {
+    margin: 25px;
+}
+
+main {
+    background-color: #f3f3f3;
+}
+
+.introduction {
+    margin: 15px;
+    background-color: #f3f3f3;
+}
+h1 {
+    font-family: 'Lato';
+    color: red;
+}
+
+.introduction div {
+    border: 2px solid white;
+    outline: 3px solid white;
+    font-family: 'Lato';
+}
