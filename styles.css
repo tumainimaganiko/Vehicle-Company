@@ -14,7 +14,7 @@ header {
     margin: 0 15px;
 }
 
-h2 {
+.introduction h2 {
     color: red;
 }
 
@@ -52,4 +52,25 @@ input {
     border: none;
     min-width: 300px;
     width: 80%;
+}
+
+.main-part img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.main-part h3 {
+    margin: 10px;
+}
+
+.main-part p {
+    margin: 10px;
+}
+
+.main-div {
+    margin: 20px;
+}
+.main-div div {
+    background-color: gray;
 }
