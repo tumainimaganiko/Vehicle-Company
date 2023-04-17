@@ -54,13 +54,21 @@ input {
     width: 80%;
 }
 
+.main-part {
+    background-image: url('images/x-mark.png');
+    background-size: 20px;
+    background-color: #2d3037;
+}
+
+.main-part h2 {
+    color: #fff;
+    margin: 25px;
+    padding: 25px;
+}
+
 .main-part img {
     width: 80px;
     height: 80px;
-    margin: 10px;
-}
-
-.main-part h3 {
     margin: 10px;
 }
 
@@ -72,5 +80,22 @@ input {
     margin: 20px;
 }
 .main-div div {
-    background-color: gray;
+    background-color: rgba(60,63,70,.8);
+}
+
+.main-div p {
+    text-align: justify;
+    color: #fff;
+}
+
+.main-div h3 {
+    min-width: 70px;
+    margin: 0;
+    color: #ff4b39;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+#benz {
+    background-color: #ff4b39;
 }
