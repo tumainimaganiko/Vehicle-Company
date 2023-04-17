@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    margin: 25px;
+    padding: 25px;
+    background-color: #f3f3f3;
 }
 
 main {
@@ -12,12 +13,22 @@ main {
 }
 
 .introduction {
-    margin: 15px;
     background-color: #f3f3f3;
+    margin: 0 15px;
 }
+
+h2 {
+    color: red;
+}
+
 h1 {
     font-family: 'Lato';
-    color: red;
+    background-image: url(images/fire.jpg);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    background-size: 125px;
+    font-size: 32px !important;
 }
 
 .introduction div {
