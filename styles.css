@@ -77,10 +77,11 @@ input {
 }
 
 .main-div {
-    margin: 20px;
+    margin:20px;
 }
 .main-div div {
     background-color: rgba(60,63,70,.8);
+    margin: 10px 0;
 }
 
 .main-div p {
@@ -98,4 +99,15 @@ input {
 
 #benz {
     background-color: #ff4b39;
+}
+
+.last-main-div {
+    padding: 50px;
+}
+
+.last-main-div h3 {
+    background-color: #ff4b39;
+    color: #fff;
+    padding: 30px;
+    margin: 0;
 }
