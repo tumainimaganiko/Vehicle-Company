@@ -1,19 +1,16 @@
 body {
     background-color: #f3f3f3;
     margin: 0;
+    font-family: 'Lato';
 }
-
+.bg-gray {
+    background-color: #f3f3f3;
+}
 header {
     padding: 25px;
-    background-color: #f3f3f3;
-}
-
-main {
-    background-color: #f3f3f3;
 }
 
 .introduction {
-    background-color: #f3f3f3;
     margin: 0 15px;
 }
 
@@ -29,10 +26,30 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-size: 125px;
     font-size: 32px !important;
+    font-weight: bolder;
 }
 
 .introduction div {
     border: 2px solid white;
     outline: 3px solid white;
     font-family: 'Lato';
+}
+
+.introduction div p {
+    padding: 15px;
+}
+.tbm-header {
+    font-size: 32px;
+    font-weight: 600;
+    color: #5e5e5e;
+}
+form {
+    padding: 20px;
+    background-color: #ececec;
+}
+
+input {
+    border: none;
+    min-width: 300px;
+    width: 80%;
 }
