@@ -184,3 +184,34 @@ input {
 .about-main p {
     text-align: justify;
 }
+
+.overlay {
+    position: relative;
+    margin: 20px;
+    background-color: rgb(245, 122, 89);
+}
+
+.overlay img {
+    width: 100%;
+    opacity: .4;
+}
+
+.overlay h3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.image-section h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.image-section p {
+    margin: 15px;
+    text-align: justify;
+    text-align-last: center;
+    padding: 10px;
+}
