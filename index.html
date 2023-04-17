@@ -11,22 +11,37 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="bg-gray">
         <i class="fa-sharp fa-solid fa-bars fa-xl" style="color: #545454;"></i>
     </header>
-    <main>
-        <section class="introduction">
+    <main class="bg-gray">
+        <section class="introduction bg-gray">
             <h2>
-                This is where luxury meets affordability
+                "This is where luxury meets affordability"
             </h2>
-            <h1>DRIVE A CAR OF YOUR DREAM</h1>
+            <h1>TBM Car Company</h1>
             <div class="p-2 border-1">
                 <p >
                     Experience the thrill of the open road with our top-quality vehicles.
                     Everyone in any part of the world deserves to get A quality car.
                 </p>
             </div>
-            <p>TBM Company LTD <br> Since 2020</p>
+            <p class="tbm-header">DRIVE A CAR OF YOUR DREAM</p>
+            <p> Since 2020</p>
+            <form action="https://formspree.io/f/xeqwlyqy">
+                <label for="fullname">Enter your Full Name</label> <br>
+                <input id="fullname" type="text" name="fullname" placeholder="name">   <br>  
+                <label for="email">Enter your email address</label> <br>
+                <input type="email" name="email" placeholder="email">   <br>
+                <label for="cars">Choose car brand:</label> <br>
+                <select id="cars" name="cars">
+                  <option value="">Choose</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Mercedes Benz">Mercedes Benz</option>
+                  <option value="Toyota">Toyota</option>
+                  <option value="Volvo">Volvo</option>
+                </select>        
+            </form>
         </section>
 
     </main>
