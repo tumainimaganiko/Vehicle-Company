@@ -159,3 +159,28 @@ input {
 .about-intro {
     background-color: white;
 }
+
+.about-intro p {
+    text-align: justify;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+.about-main {
+    padding: 25px;
+    background-color: white;
+}
+
+.about-main h2 {
+    text-align-last: center;
+}
+
+.dash {
+    text-align: center;
+    color: red;
+    padding-bottom: 20px;
+}
+
+.about-main p {
+    text-align: justify;
+}
