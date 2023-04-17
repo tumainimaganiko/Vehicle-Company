@@ -111,3 +111,18 @@ input {
     padding: 30px;
     margin: 0;
 }
+
+.partcipants img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.content {
+    margin: 10px;
+}
+
+.content p {
+    text-align: justify;
+    color: red;
+}
