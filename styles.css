@@ -215,3 +215,8 @@ input {
     text-align-last: center;
     padding: 10px;
 }
+
+.partner-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
