@@ -1,5 +1,4 @@
 body {
-    background-color: #f3f3f3;
     margin: 0;
     font-family: 'Lato';
 }
@@ -114,6 +113,7 @@ input {
 
 .partcipants img{
     min-width: 150px;
+    max-width: 150px;
     height: 150px;
     margin: 10px;
 }
@@ -125,4 +125,15 @@ input {
 .content p {
     text-align: justify;
     color: red;
+}
+
+.partcipants button {
+    /* position: relative;
+    left: 50%; */
+    width: 80%;
+    margin: 10%;
+    padding: 20px;
+    border-color: #ececec;
+    background-color: white;
+    border: none;
 }
