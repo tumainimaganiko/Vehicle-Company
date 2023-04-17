@@ -144,3 +144,18 @@ input {
     margin: 20px;
     background-color: red;
 }
+
+.contact p {
+    padding: 20px;
+    text-align: justify;
+    text-align-last:center ;
+}
+
+.contact p a {
+    color: #2d3037;
+    font-weight: 400;
+}
+
+.about-intro {
+    background-color: white;
+}
