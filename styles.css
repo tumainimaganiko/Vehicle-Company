@@ -93,8 +93,8 @@ input[type="submit"] {
 
 .main-part h2 {
     color: #fff;
-    margin: 25px;
-    padding: 25px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .main-part img {
@@ -282,6 +282,10 @@ footer h2 {
     color: #767676;
 }
 
+.main-part > h3 {
+    display: none;
+}
+
 @media  screen and (min-width:768px) {
     .fa-sharp.fa-solid.fa-bars.fa-xl {
         display: none;
@@ -372,5 +376,31 @@ footer h2 {
 
     .main-div div h3 {
      text-align: center;   
+    }
+
+    .last-main-div {
+        display: none;
+    }
+
+    .main-part > h3 {
+        display: block;
+        color: #ececec;
+        text-align: center;
+        text-decoration: underline;
+        padding: 5%;
+    }
+
+    .partcipants {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px 10% 5%;
+    }
+
+    .investors h2 {
+        text-align: center;
+    }
+
+    .none {
+        display: none;
     }
 }
