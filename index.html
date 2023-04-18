@@ -28,11 +28,11 @@
             </div>
             <p class="tbm-header">DRIVE A CAR OF YOUR DREAM</p>
             <p> Since 2020</p>
-            <form action="https://formspree.io/f/xeqwlyqy">
+            <form action="https://formspree.io/f/xeqwlyqy" method="post">
                 <label for="fullname">Enter your Full Name</label> <br>
-                <input id="fullname" type="text" name="fullname" placeholder="name">   <br>  
+                <input id="fullname" type="text" name="fullname" placeholder="name" required>   <br>  
                 <label for="email">Enter your email address</label> <br>
-                <input type="email" name="email" placeholder="email">   <br>
+                <input type="email" name="email" placeholder="email" required>   <br>
                 <label for="cars">Choose car brand:</label> <br>
                 <select id="cars" name="cars">
                   <option value="">Choose</option>
@@ -40,7 +40,8 @@
                   <option value="Mercedes Benz">Mercedes Benz</option>
                   <option value="Toyota">Toyota</option>
                   <option value="Volvo">Volvo</option>
-                </select>        
+                </select> <br>
+                <input class="bg-red" type="submit" value="SUBMIT">       
             </form>
         </section>
         <section class="main-part">
@@ -68,7 +69,7 @@
                     </p>
                 </div>
                 <div class="d-flex justify-content-between align-items-center">
-                    <img id="benz" src="images/Mercedes-Benz.png" alt="">
+                    <img class="bg-red" src="images/Mercedes-Benz.png" alt="">
                     <h3>Benz</h3>
                     <p>
                         Mercedes-Benz is known for its automotive safety innovation. 
@@ -83,7 +84,7 @@
                 </div>                
             </div>
             <div class="last-main-div">
-                <h3>Drive the brand you trust.</h3>
+                <h3 class="bg-red">Drive the brand you trust.</h3>
             </div>
         </section>
         <section class="partcipants">
