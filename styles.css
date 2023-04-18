@@ -50,9 +50,9 @@ h1 {
     font-family: 'Lato';
 }
 
-.introduction div p {
+/* .introduction div p {
     padding: 15px;
-}
+} */
 .tbm-header {
     font-size: 32px;
     font-weight: 600;
@@ -423,5 +423,10 @@ footer h2 {
 
     .partner-div div {
         margin:0 3%;
+    }
+
+    .about-intro p {
+        margin: 0;
+        padding-top: 0;
     }
 }
