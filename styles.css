@@ -223,12 +223,16 @@ input[type="submit"] {
     color: white;
 }
 
-.image-section h2 {
+.image-container {
+    padding-bottom: 7%;
+}
+
+.image-container h2 {
     text-align: center;
     margin: 20px;
 }
 
-.image-section p {
+.image-container p {
     margin: 15px;
     text-align: justify;
     text-align-last: center;
@@ -426,5 +430,15 @@ footer h2 {
     .about-intro p {
         margin: 0;
         padding-top: 0;
+    }
+
+    .image-section {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0 15%;
+    }
+
+    .cruiser-v8 {
+        height: 100%;
     }
 }
