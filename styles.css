@@ -13,6 +13,15 @@ body {
 
 header {
     padding: 25px;
+    background-color: #f3f3f3;
+}
+
+.fa-xl {
+    color: #545454;
+}
+
+nav {
+    display: none;
 }
 
 .introduction {
@@ -267,4 +276,36 @@ footer h2 {
 
 #google {
     color: #767676;
+}
+
+@media  screen and (min-width:768px) {
+    .fa-sharp.fa-solid.fa-bars.fa-xl {
+        display: none;
+    }
+
+    header {
+        padding: 0;
+        background-color: #3e3e3e;
+    }
+
+    .first-nav {
+        display: block;
+        padding-right: 20%;
+    }
+
+    .first-nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+    .first-nav ul li {
+    }
+
+    .first-nav ul a {
+        text-decoration: none;
+        display: block;
+        padding: 0 15px;
+        color: white;
+    }
 }
