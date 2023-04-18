@@ -286,6 +286,10 @@ footer h2 {
     display: none;
 }
 
+.none-mobile {
+    display: none;
+}
+
 @media  screen and (min-width:768px) {
     .fa-sharp.fa-solid.fa-bars.fa-xl {
         display: none;
@@ -402,5 +406,22 @@ footer h2 {
 
     .none {
         display: none;
+    }
+
+    .none-mobile {
+        display: block;
+    }
+
+    .none-mobile h2 {
+        padding-top: 0;
+    }
+
+    .partner-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .partner-div div {
+        margin:0 3%;
     }
 }
