@@ -50,9 +50,6 @@ h1 {
     font-family: 'Lato';
 }
 
-/* .introduction div p {
-    padding: 15px;
-} */
 .tbm-header {
     font-size: 32px;
     font-weight: 600;
@@ -204,6 +201,7 @@ input[type="submit"] {
 
 .about-main p {
     text-align: justify;
+    padding:0 6%;
 }
 
 .overlay {
@@ -354,7 +352,7 @@ footer h2 {
     }
 
     .introduction {
-        padding: 10% 20% 10% 10%;
+        padding: 5% 20% 5% 10%;
     }
 
     .main-div {
