@@ -2,9 +2,15 @@ body {
     margin: 0;
     font-family: 'Lato';
 }
+
 .bg-gray {
     background-color: #f3f3f3;
 }
+
+.bg-red {
+    background-color: #ff4b39;
+}
+
 header {
     padding: 25px;
 }
@@ -25,7 +31,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     background-size: 125px;
     font-size: 32px !important;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .introduction div {
@@ -41,16 +47,30 @@ h1 {
     font-size: 32px;
     font-weight: 600;
     color: #5e5e5e;
+    text-align-last: center;
 }
 form {
     padding: 20px;
     background-color: #ececec;
 }
 
-input {
+input:not([type="submit"]) {
     border: none;
     min-width: 300px;
     width: 80%;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    border: 1px solid red;
+    font-family: 'Lato';
+    background-image: url(images/fire.jpg);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    background-size: 125px;
+    font-weight: bolder;
 }
 
 .main-part {
@@ -96,16 +116,11 @@ input {
     font-weight: bolder;
 }
 
-#benz {
-    background-color: #ff4b39;
-}
-
 .last-main-div {
     padding: 50px;
 }
 
 .last-main-div h3 {
-    background-color: #ff4b39;
     color: #fff;
     padding: 30px;
     margin: 0;
@@ -136,13 +151,6 @@ input {
     border-color: #ececec;
     background-color: white;
     border: none;
-}
-
-.partners div {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 20px;
-    background-color: red;
 }
 
 .contact p {
