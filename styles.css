@@ -111,7 +111,10 @@ input[type="submit"] {
     margin:20px;
 }
 .main-div div {
-    background-color: rgba(60,63,70,.8);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgba(60,63,70,.9);
     margin: 10px 0;
 }
 
@@ -155,8 +158,6 @@ input[type="submit"] {
 }
 
 .partcipants button {
-    /* position: relative;
-    left: 50%; */
     width: 80%;
     margin: 10%;
     padding: 20px;
@@ -346,5 +347,30 @@ footer h2 {
 
     .introduction {
         padding: 10% 20% 10% 10%;
+    }
+
+    .main-div {
+        display: flex;
+        padding:0 10%;
+    }
+
+    .main-part h2 {
+        text-align: center;
+    }
+
+    .main-div div {
+        flex-direction: column;
+        border-left: 2px solid ;
+        border-right: 2px solid ;
+        justify-content: flex-start;
+        align-content: center;
+    }
+
+    .main-div div img {
+        margin: 0 auto;
+    }
+
+    .main-div div h3 {
+     text-align: center;   
     }
 }
