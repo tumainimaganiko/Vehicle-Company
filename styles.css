@@ -299,13 +299,44 @@ footer h2 {
         list-style-type: none;
     }
 
-    .first-nav ul li {
-    }
-
     .first-nav ul a {
         text-decoration: none;
         display: block;
         padding: 0 15px;
         color: white;
+    }
+
+    .second-nav {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .second-nav h2 {
+        font-family: 'Lato';
+    background-image: url(images/fire.jpg);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    -webkit-text-fill-color: transparent;
+    background-size: 125px;
+    font-size: 32px !important;
+    font-weight: 900;
+    }
+
+    .second-nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .second-nav ul li {
+        padding: 10px 15px;
+    }
+
+    .second-nav a {
+        text-decoration: none;
+        color: #545454;
     }
 }
