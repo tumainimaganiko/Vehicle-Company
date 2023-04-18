@@ -163,13 +163,13 @@ input[type="submit"] {
     border: none;
 }
 
-.contact p {
+#contact p {
     padding: 20px;
     text-align: justify;
     text-align-last:center ;
 }
 
-.contact p a {
+#contact p a {
     color: #2d3037;
     font-weight: 400;
 }
@@ -290,6 +290,44 @@ footer h2 {
 
 .none-mobile {
     display: none;
+}
+
+.mobile-menu {
+    height: 753px;
+    margin: 0;
+    background-color: #BEBEBE;
+    display: none;
+}
+
+.x-mark {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.mobile-menu ul li {
+    margin: 0;
+}
+
+.mobile-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #2d3037;
+    margin: 15px;
+    display: block;
+    text-align: center;
+    color: #8F8F8F;
 }
 
 @media  screen and (min-width:768px) {
