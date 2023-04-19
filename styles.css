@@ -35,17 +35,11 @@ nav {
   background-size: cover;
 }
 
-footer h2 {
-  text-align: center;
-  color: #fff;
-  padding-top: 30px;
-}
-
-.introduction h2 {
+.introduction h1 {
   color: red;
 }
 
-h1 {
+.introduction > h2 {
   background-image: url(images/fire.jpg);
   -webkit-background-clip: text; /* For Safari/Chrome */
   -webkit-text-fill-color: transparent;
@@ -64,9 +58,13 @@ h1 {
   font-size: 32px;
   font-weight: 600;
   color: #5e5e5e;
-  text-align-last: center;
+  text-align-last: left;
   font-family: "Lato", sans-serif;
   padding-top: 7%;
+}
+
+.nyerere {
+  color: #767676;
 }
 
 form {
@@ -120,12 +118,17 @@ input[type="submit"] {
   justify-content: space-between;
   align-content: center;
   background-color: rgba(60, 63, 70, 0.5);
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 .main-div p {
   text-align: justify;
   color: #fff;
+}
+
+footer h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
 }
 
 .main-div h3 {
@@ -151,6 +154,7 @@ input[type="submit"] {
   height: 150px;
   margin: 10px;
   object-fit: cover;
+  z-index: 1000;
 }
 
 .content {
@@ -237,11 +241,8 @@ input[type="submit"] {
   padding: 10px;
 }
 
-footer {
-  background-color: #414246;
-  font-family: "Lato", sans-serif;
-  padding-top: 30px;
-  padding-bottom: 40px;
+.ab-intro {
+  margin: 0 auto;
 }
 
 .above-div {
@@ -345,6 +346,29 @@ footer {
   color: #fff;
 }
 
+.last-section h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.last-section {
+  background-color: #414246;
+  font-family: "Lato", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+
+.home-footer {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .fa-sharp.fa-solid.fa-bars.fa-xl {
     display: none;
@@ -412,8 +436,20 @@ footer {
     color: #ff4b39;
   }
 
-  .introduction {
+  .home-intro {
     padding: 5% 20% 5% 10%;
+  }
+
+  .ab-intro {
+    padding: 5% 20%;
+  }
+
+  .ab-intro h2 {
+    text-align: center;
+  }
+
+  .ab-intro h1 {
+    text-align: center;
   }
 
   .main-part h2 {
@@ -504,5 +540,17 @@ footer {
 
   .cruiser-v8 {
     height: 100%;
+  }
+
+  .last-section {
+    display: none;
+  }
+
+  .foot {
+    background-color: #3e3e3e;
+  }
+
+  .home-footer {
+    display: flex;
   }
 }
