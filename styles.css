@@ -11,6 +11,10 @@ body {
     background-color: #ff4b39;
 }
 
+.font {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     padding: 25px;
     background-color: #f3f3f3;
@@ -36,7 +40,6 @@ nav {
 }
 
 h1 {
-    font-family: 'Lato';
     background-image: url(images/fire.jpg);
     background-clip: text;
     -webkit-background-clip: text; /* For Safari/Chrome */
@@ -74,14 +77,10 @@ input:not([type="submit"]) {
 input[type="submit"] {
     display: block;
     margin: 20px auto 0;
-    border: 1px solid red;
     font-family: 'Lato';
-    background-image: url(images/fire.jpg);
-    background-clip: text;
-    -webkit-background-clip: text; /* For Safari/Chrome */
-    -webkit-text-fill-color: transparent;
-    background-size: 125px;
     font-weight: bolder;
+    color: #ececec;
+    border: none;
 }
 
 .main-part {
@@ -113,7 +112,7 @@ input[type="submit"] {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: rgba(60,63,70,.9);
+    background-color: rgba(60,63,70,.5);
     margin: 10px 0;
 }
 
@@ -151,7 +150,7 @@ input[type="submit"] {
     margin: 10px;
 }
 
-.content p {
+.info {
     text-align: justify;
     color: red;
 }
@@ -332,6 +331,10 @@ footer h2 {
     color: #8F8F8F;
 }
 
+.investors h2 {
+    text-align: center;
+}
+
 @media  screen and (min-width:768px) {
     .fa-sharp.fa-solid.fa-bars.fa-xl {
         display: none;
@@ -395,6 +398,18 @@ footer h2 {
         color: #545454;
     }
 
+    .second-nav a:hover {
+        color: #ff4b39;
+    }
+
+    .last-item {
+        border: 4px solid #ff4b39;
+    }
+
+    .last-item a {
+        color: #ff4b39;
+    }
+
     .introduction {
         padding: 5% 20% 5% 10%;
     }
@@ -414,6 +429,10 @@ footer h2 {
         border-right: 2px solid ;
         justify-content: flex-start;
         align-content: center;
+    }
+
+    .main-div div:hover {
+        border:2px solid white;
     }
 
     .main-div div img {
@@ -440,10 +459,6 @@ footer h2 {
         display: grid;
         grid-template-columns: auto auto;
         padding: 20px 10% 5%;
-    }
-
-    .investors h2 {
-        text-align: center;
     }
 
     .none {
