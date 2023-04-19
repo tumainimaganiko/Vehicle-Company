@@ -183,6 +183,7 @@ input[type="submit"] {
     text-align: justify;
     text-align-last: center;
     -moz-text-align-last: center;
+    padding: 3%;
 }
 
 .about-main {
@@ -324,11 +325,11 @@ footer h2 {
 .mobile-menu a {
     padding: 10px 15px;
     text-decoration: none;
-    background-color: #2d3037;
+    background-color: #ff4b39;
     margin: 15px;
     display: block;
     text-align: center;
-    color: #8F8F8F;
+    color: white;
 }
 
 .investors h2 {
