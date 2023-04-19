@@ -381,14 +381,15 @@ footer {
 
   .first-nav {
     display: block;
-    padding-right: 20%;
+    padding-right: 8%;
   }
 
   .second-nav {
     background-color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 5%;
   }
 
   .second-nav h2 {
@@ -409,7 +410,7 @@ footer {
   }
 
   .second-nav ul li {
-    padding: 10px 15px;
+    padding: 10px 10px;
   }
 
   .second-nav a {
