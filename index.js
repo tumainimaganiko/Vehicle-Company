@@ -37,7 +37,7 @@ const investors = [
         details: "He supports us in importing and exporting Cars in any part of the world"
     },
     {
-        img: "images/2maini.jpeg",
+        img: "images/2maini.jpg",
         heading: "Tumaini Maganiko",
         details: "He supports us in importing and exporting Cars in any part of the world"
     },
@@ -47,3 +47,18 @@ const investors = [
         details: "He supports us in importing and exporting Cars in any part of the world"
     }
 ]
+
+const featured = document.querySelector('.partcipants');
+
+investors.forEach((value,index) => {
+    const div = document.createElement('div');
+    div.className = 'd-flex align-items-center';
+    div.innerHTML = `
+    <img src="${value.img}" alt="">
+    <div class="content">
+        <h3>${value.heading}</h3>
+        <p>${value.details}</p>
+    </div>
+    `
+    featured.appendChild(div);
+})
