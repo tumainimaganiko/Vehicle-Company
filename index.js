@@ -47,7 +47,7 @@ const investors = [
   {
     img: 'images/2maini.jpg',
     heading: 'Tumaini Maganiko',
-    info: 'Professor at HARVARD',
+    info: 'Student at Microverse',
     details:
       'He supports us in importing and exporting Cars in any part of the world',
   },
