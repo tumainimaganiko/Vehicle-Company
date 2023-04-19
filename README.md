@@ -5,7 +5,7 @@
     
   <br/>
 
-  <h3><b>Vehicle Company Limited</b></h3>
+  <h3><b>TUMAINI BARNABAS MAGANIKO</b></h3>
 
 </div>
 
@@ -35,14 +35,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vehicle Company Limited <a name="about-project"></a>
+# 📖 TBM CAR Company <a name="about-project"></a>
 
->This is my second microverse project I have built it with HTML and CSS.
+>Welcome to TBM CAR COMPANY, The mission of this company is to provide high-quality vehicles to their valued customers while delivering exceptional customer service.
+## 🛠 Screenshot 
+![Desktop Home Screen](images/home%20page.png)
+![Desktop Home Screen](images/mobile.png)
+![Desktop Home Screen](images/about%20page.png)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML
 2. CSS
 3. JAVASCRIPT
+4. BOOTSTRAP
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -151,10 +157,6 @@ Coming soon
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-- [ ] Add Home page
-- [ ] Add About page
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -179,9 +181,9 @@ If you like this project rate me star
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+1. Microverse
+2. Cindy Shin - Original design by (Cindy Shin in Behance) [https://www.behance.net/gallery/29845175/CC-Global-Summit-2015].
 
-
-I would like to thank Microverse for accelerating my developing skills
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
