@@ -26,6 +26,9 @@ nav {
 
 .introduction {
     margin: 0 15px;
+    background-image: url('images/Porsche-PNG-Image-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .introduction h2 {
