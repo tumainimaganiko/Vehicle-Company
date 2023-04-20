@@ -223,6 +223,19 @@ footer h3 {
   top: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  padding-bottom: 30px;
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.overlay p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .image-container {
@@ -234,7 +247,7 @@ footer h3 {
   margin: 20px;
 }
 
-.image-container p {
+.image-container > p {
   margin: 15px;
   text-align: justify;
   text-align-last: center;
@@ -243,6 +256,14 @@ footer h3 {
 
 .ab-intro {
   margin: 0 auto;
+}
+
+.ab-intro h2 {
+  text-align: center;
+}
+
+.ab-intro h1 {
+  text-align: center;
 }
 
 .above-div {
@@ -288,8 +309,12 @@ footer h3 {
 .mobile-menu {
   height: 753px;
   margin: 0;
-  background-color: #bebebe;
+  background-color: rgba(233, 219, 217, 0.8);
   display: none;
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(3px);
+  z-index: 10;
 }
 
 .x-mark {
@@ -443,14 +468,6 @@ footer {
 
   .ab-intro {
     padding: 5% 20%;
-  }
-
-  .ab-intro h2 {
-    text-align: center;
-  }
-
-  .ab-intro h1 {
-    text-align: center;
   }
 
   .main-part h2 {
