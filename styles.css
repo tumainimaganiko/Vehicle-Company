@@ -311,7 +311,7 @@ footer h3 {
   margin: 0;
   background-color: rgba(233, 219, 217, 0.8);
   display: none;
-  position: absolute;
+  position: fixed;
   width: 100%;
   backdrop-filter: blur(3px);
   z-index: 10;
