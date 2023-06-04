@@ -1,6 +1,7 @@
 const xMark = document.querySelector('.x-mark');
 const openMenu = document.querySelector('.hamburger');
 
+// Event for closing Mobile menu
 xMark.addEventListener('click', () => {
   const mobileMenu = document.querySelector('.mobile-menu');
   const head = document.querySelector('header');
@@ -8,6 +9,7 @@ xMark.addEventListener('click', () => {
   head.style.display = 'block';
 });
 
+// Event for opening Mobile menu
 openMenu.addEventListener('click', () => {
   const mobileMenu = document.querySelector('.mobile-menu');
   const head = document.querySelector('header');
@@ -15,6 +17,7 @@ openMenu.addEventListener('click', () => {
   head.style.display = 'none';
 });
 
+// Array of Featured Partcipants Data
 const investors = [
   {
     img: 'images/reagan.png',
@@ -60,8 +63,8 @@ const investors = [
   },
 ];
 
+// Looping through to display Array items
 const featured = document.querySelector('.partcipants');
-
 investors.forEach((value) => {
   const div = document.createElement('div');
   div.className = 'd-flex align-items-center';
