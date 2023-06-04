@@ -13,25 +13,27 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 TBM CAR Company ](#-tbm-car-company-)
+  - [🛠 Screenshot](#-screenshot)
+    - [Desktop Home Page](#desktop-home-page)
+    - [Mobile Home page](#mobile-home-page)
+    - [Desktop About Page](#desktop-about-page)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Video about the project ](#-video-about-the-project-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -39,8 +41,13 @@
 
 >Welcome to TBM CAR COMPANY, The mission of this company is to provide high-quality vehicles to their valued customers while delivering exceptional customer service.
 ## 🛠 Screenshot 
+### Desktop Home Page
 ![Desktop Home Screen](images/home%20page.png)
+
+### Mobile Home page
 ![Desktop Home Screen](images/mobile.png)
+
+### Desktop About Page
 ![Desktop Home Screen](images/about%20page.png)
 
 
@@ -61,16 +68,6 @@
   </ul>
 </details>
 
-
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-
-- Added index.html file
-- Added styles.css
-- Added index.js file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,27 +96,13 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder:
+
+To get a local copy up and running follow these simple example steps.
 
 
-Run this command:
-
-```sh
-  cd my-folder
-  git clone https://github.com/tumainimaganiko/Vehicle-Company
-```
-
-### Install
-
-Install this project with:
-
-
-command:
-
-```sh
-  cd my-project
-  npm install
-```
+- git clone https://github.com/tumainimaganiko/Vehicle-Company
+- cd To-Do-Lists
+- npm install
 
 ### Usage
 
@@ -155,17 +138,18 @@ Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b 'branchname'`)
+3. Commit your Changes (`git commit -m 'Add some branchname'`)
+4. Push to the Branch (`git push origin branchname`)
+5. Open a Pull Request
 
 Feel free to check the [issues page](../../issues/).
 
